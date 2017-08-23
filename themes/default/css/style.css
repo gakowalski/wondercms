@@ -16,11 +16,6 @@ body {
 .padding40 {padding: 40px;}
 .blueBackground {background-color: #1ab;}
 
-.lightFont {
-	color:#aaa; 
-	font-size:18px;
-}
-
 .navbar-default .navbar-toggle {border-color: #888;}
 
 .navbar li {
@@ -33,9 +28,9 @@ body {
 	background: none;
 }
 
-.navbar li a:hover, .active a {
-	color: #1ab !important;
-	background: none !important;
+ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
+	color: #1ab;
+	background: none;
 	border-bottom: 1px solid #1ab;
 }
 
